@@ -41,7 +41,7 @@ displacy.render(doc, style="ent", jupyter=True)
  silently stands as a testament to nature's raw beauty, with its jagged peaks, pristine glaciers, and remote wilderness, inviting those seeking solitude and untamed landscapes to embark on an off-the-beaten-path adventure<br></div></span>
 
 
-Although the training dataset was small, the model captures the context and correctly identifies the target class
+##### Although the training dataset was small, the model captures the context and correctly identifies the target class
 
 ### Example 2
 
@@ -118,4 +118,4 @@ displacy.render(doc, style="ent", jupyter=True)
  a historic architectural structure, not a high mountain, but it can serve as an example to illustrate the use of a hyphen in a name.<br></div></span>
 
 
-In this example, you can see that the model does not perfectly classify mountains with hyphens in the name. To improve the quality of the model, the training and test dataset can be increased, paying attention to the names of mountains with hyphens.
+##### In this example, you can see that the model does not perfectly classify mountains with hyphens in the name. To improve the quality of the model, the training and test dataset can be increased, paying attention to the names of mountains with hyphens.
